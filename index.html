@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>El hombre que calculaba</h1>
+        <h2>Capitulo #3</h2>
+        <h3>El problema de los tres marineros y decubre el secreto de una medalla</h3>
+        <hr>
+        <p>Rumbo a la ciudad de Bagdad, se encontraron con 3 hermanos, éstos estaban sosteniendo
+        una acalorada disputa y tenian cerca un total de 35 camellos. Beremiz preocupado por esta situacion se aproximo y pregunto
+        el motivo por dicha disputa. El problema era que el padre de estos 3 hombres habia muerto y habian heredado de este sus 35 camellos.
+        al hermano mayor le correspondia la mitad, al hijo del medio la tercera parte y al hijo menor la novena parte.
+        Desafortunadamente, todas las divisiones no eran exactas y es por eso la razon de la pelea entre ellos.
+        Habilidosamente el hombre que calculaba, propuso una solucion a este problema alo que los hermanos accedieron.
+        El hombre que calculaba agrego al animal de su amigo a los 35 camellos, al principio su amigo no le gusto la idea pero Beremiz lo convencio
+        de que confiara en el y en la solucion que estaba planteando, por lo que aprobo prestarselo y entonces Beremiz comenzo la particion
+        de los camellos como herencia.
+        Ahora tienen 36 camellos y volvieron a calcular. Al mayor inicialmente le tocaban 17 y algo mas pero ahora le correspondian 18 no debia quejarse,
+        al hermano del medio le correspondia 11 y  algo mas y ahora recibiria 12 saliendo en ganancia tampoco se quejaria,
+        al hermano menor le tocaban 3 y algo mas pero ahora le tocarian 4, asi que tampoco se quejaria. Ahora bien, al sumar "18+12+4" daba un total de 34, sobrando un camello que Beremiz decidio
+        tomar ya que el habia aportdo la solucion al problema de los hermanos y le devolveria su camello a su amigo Bagdali y asi podrian continuar su viaje y cada uno
+        en su camello propio.
+        </p>
+    </section>
+
+    <section>
+        <div>
+            <label for="cam">Total de Camellos heredados</label><br>
+            <input type="number" id="cam" placeholder="Camellos heredados">
+        </div>
+        <div>
+            <label for="ber">Adicion de camellos por parte de Beremiz</label><br>
+            <input type="number" id="ber" placeholder="Camellos adicionales">
+        </div>
+        <div class="container">
+            <input class="button" type="submit" value="Calculo" onclick="calculo()">
+        </div>
+        <div>
+            <h2 class="respuesta">Respuesta</h2>
+            <div id="respuesta1" class="letra"></div>
+            <div id="respuesta2" class="letra"></div>
+            <div id="respuesta3" class="letra"></div>
+            <div id="respuesta4" class="letra"></div>
+        </div>
+    </section>
+    
+</body>
+<script src="calculo.js"></script>
+
+</html>
